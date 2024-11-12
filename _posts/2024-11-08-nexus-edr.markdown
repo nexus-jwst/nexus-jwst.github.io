@@ -6,6 +6,6 @@ categories: jekyll update
 ---
 We are pleased to announce the Early Data Release of the NEXUS project. This EDR includes NIRCam imaging and a photometric catalog, as well as NIRCam WFSS spectra for the bright subset of sources. 
 
-The EDR data can be access at [this URL](https://ariel.astro.illinois.edu/nexus/edr/), and the detailed description of EDR can be found in the [EDR paper](https://ui.adsabs.harvard.edu/abs/2024arXiv241106372Z%2F/abstract). 
+The EDR data can be accessed at [this URL](https://ariel.astro.illinois.edu/nexus/edr/), and the detailed description of EDR can be found in the [EDR paper](https://ui.adsabs.harvard.edu/abs/2024arXiv241106372Z%2F/abstract). 
 
 Please report issues to the lead author of the EDR paper.
