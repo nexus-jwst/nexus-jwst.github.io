@@ -6,7 +6,9 @@ main:
     url: /people/
   - title: "Take A Look"
     url: /viewer/
-  - title: "Updates"
+  - title: "Data Release"
     url: /updates/
+  - title: "Synergy"
+    url: /synergy/
   - title: "Science"
     url: /science/

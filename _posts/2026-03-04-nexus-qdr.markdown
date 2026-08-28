@@ -1,0 +1,12 @@
+---
+layout: single
+title: "[2026-03-04] NEXUS Quick Data Releases available"
+date: 2026-03-04
+categories: jekyll update
+published: false
+---
+The NEXUS Quick Data Releases are now available. They provide NIRCam and NIRSpec products from the NEXUS Deep observations and will be updated as additional epochs are completed.
+
+The QDR data can be accessed at [this URL](https://ariel.astro.illinois.edu/nexus/qdr/). A description of the data products and their caveats is provided in the evolving [NEXUS Quick Release Notes](https://arxiv.org/abs/2603.04586).
+
+Please consult the Quick Release Notes for the latest release status before using the data.

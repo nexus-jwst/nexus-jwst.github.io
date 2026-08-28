@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">NEXUS multi-survey footprint schematic</title>
+  <desc id="desc">Two-scale diagram showing the SPHEREx North Deep Field around the North Ecliptic Pole and a zoomed view of EUDF, RXDF, and the NEXUS Wide and Deep tiers.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#718096"/>
+    </marker>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; letter-spacing: 0; }
+      .panel-title { font-size: 26px; font-weight: 700; fill: #172b4d; }
+      .label { font-size: 21px; font-weight: 700; }
+      .detail { font-size: 17px; fill: #42526e; }
+      .small { font-size: 15px; fill: #5e6c85; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <rect x="30" y="30" width="420" height="610" rx="6" fill="#f7f9fc" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="520" y="30" width="650" height="610" rx="6" fill="#f7f9fc" stroke="#cbd5e1" stroke-width="2"/>
+
+  <text x="60" y="76" class="panel-title">North Ecliptic Pole context</text>
+  <text x="550" y="76" class="panel-title">EUDF detail</text>
+
+  <ellipse cx="240" cy="340" rx="170" ry="230" fill="#dce8f5" stroke="#4f6f96" stroke-width="3"/>
+  <path d="M110 210 C180 130 320 120 385 220 M92 344 C170 300 325 300 410 360 M130 500 C220 560 340 520 390 450" fill="none" stroke="#9bb3ce" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="240" y="280" text-anchor="middle" class="label" fill="#294f7a">SPHEREx</text>
+  <text x="240" y="308" text-anchor="middle" class="detail">North Deep Field</text>
+  <text x="240" y="334" text-anchor="middle" class="detail">~100 deg²</text>
+
+  <circle cx="250" cy="380" r="12" fill="#22a699" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="250" cy="380" r="25" fill="none" stroke="#22a699" stroke-width="2" stroke-dasharray="5 5"/>
+  <path d="M236 380 H264 M250 366 V394" stroke="#172b4d" stroke-width="2"/>
+  <text x="250" y="425" text-anchor="middle" class="label" fill="#147d73">EUDF / NEP</text>
+  <text x="250" y="451" text-anchor="middle" class="small">detail enlarged at right</text>
+
+  <path d="M278 368 C370 300 435 260 505 230" fill="none" stroke="#718096" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M278 393 C385 470 445 490 505 500" fill="none" stroke="#718096" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <circle cx="845" cy="350" r="230" fill="#d9f1ed" fill-opacity="0.55" stroke="#22a699" stroke-width="4"/>
+  <text x="1135" y="130" text-anchor="end" class="label" fill="#147d73">EUDF</text>
+  <text x="1135" y="156" text-anchor="end" class="detail">radius ~0.5°</text>
+  <path d="M1060 166 L1025 208" stroke="#147d73" stroke-width="2"/>
+
+  <g transform="rotate(-8 845 350)">
+    <rect x="665" y="260" width="360" height="180" rx="4" fill="#f7c873" fill-opacity="0.45" stroke="#c98200" stroke-width="4"/>
+    <rect x="735" y="292" width="225" height="118" rx="3" fill="#315f88" fill-opacity="0.78" stroke="#183b5b" stroke-width="4"/>
+    <rect x="820" y="315" width="88" height="70" rx="3" fill="#d94888" fill-opacity="0.9" stroke="#8c2456" stroke-width="4"/>
+  </g>
+
+  <path d="M665 250 L635 180" stroke="#c98200" stroke-width="2"/>
+  <text x="555" y="130" class="label" fill="#a56700">RXDF</text>
+  <text x="555" y="156" class="detail">50.3' × 25.5'</text>
+  <text x="555" y="180" class="small">&gt;1,200 arcmin² total</text>
+
+  <path d="M760 417 L675 506" stroke="#183b5b" stroke-width="2"/>
+  <text x="555" y="528" class="label" fill="#183b5b">NEXUS Wide</text>
+  <text x="555" y="554" class="detail">~400 arcmin²</text>
+
+  <path d="M888 388 L970 490" stroke="#8c2456" stroke-width="2"/>
+  <text x="940" y="520" class="label" fill="#8c2456">NEXUS Deep</text>
+  <text x="940" y="546" class="detail">~50 arcmin²</text>
+
+  <g transform="translate(845 350)">
+    <circle r="7" fill="#172b4d"/>
+    <path d="M-16 0 H16 M0 -16 V16" stroke="#172b4d" stroke-width="3"/>
+  </g>
+  <text x="845" y="330" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">NEP</text>
+
+  <text x="600" y="604" class="small">Nested shapes show survey hierarchy; orientation and placement are schematic.</text>
+  <text x="30" y="686" class="small">Two scales are used so the sub-degree JWST, Roman, and Euclid footprints remain visible within the much wider SPHEREx field.</text>
+</svg>
