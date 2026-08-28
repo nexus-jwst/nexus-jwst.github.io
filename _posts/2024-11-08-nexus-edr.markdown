@@ -3,6 +3,7 @@ layout: single
 title:  "[2024-11-12] EDR announced!"
 date:   2024-11-12
 categories: jekyll update
+published: false
 ---
 We are pleased to announce the Early Data Release of the NEXUS project. This EDR includes NIRCam imaging and a photometric catalog, as well as NIRCam WFSS spectra for the bright subset of sources. 
 

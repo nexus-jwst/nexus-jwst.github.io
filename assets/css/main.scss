@@ -11,3 +11,127 @@ $masthead-link-color-hover: #5E6C85;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.layout--single.wide .page {
+  float: none;
+  width: 100%;
+  padding-right: 0;
+}
+
+.wide .page__inner-wrap {
+  max-width: none;
+}
+
+.about-overview {
+  display: grid;
+  grid-template-columns: minmax(0, 58rem) 20.8rem;
+  gap: 3rem;
+  align-items: start;
+  justify-content: start;
+  margin-bottom: 2rem;
+}
+
+.about-overview__text {
+  min-width: 0;
+}
+
+.about-overview__image {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.about-overview__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: -2.9rem;
+}
+
+.about-schedule {
+  margin-top: -1.5rem;
+}
+
+.release-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0 2.5rem;
+}
+
+.release-card {
+  display: flex;
+  min-height: 7rem;
+  padding: 1.25rem;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #d9dee7;
+  border-radius: 6px;
+  background: #fff;
+  color: #13294b;
+  text-decoration: none;
+}
+
+.release-card strong {
+  font-size: 1.6rem;
+}
+
+.release-card span {
+  color: #5e6c85;
+  font-size: 0.85rem;
+}
+
+.release-card[href]:hover {
+  border-color: #3469a8;
+  color: #13294b;
+}
+
+.release-card--soon {
+  background: #f5f6f8;
+}
+
+.synergy-map {
+  max-width: 72rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.synergy-map img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #d9dee7;
+  border-radius: 6px;
+}
+
+.synergy-map figcaption {
+  margin-top: 0.65rem;
+  color: #5e6c85;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 1024px) {
+  .release-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wide .page__inner-wrap {
+    max-width: none;
+  }
+
+  .about-overview {
+    display: block;
+  }
+
+  .about-overview__image {
+    margin-top: 1.5rem;
+  }
+
+  .synergy-map {
+    overflow-x: auto;
+  }
+
+  .synergy-map img {
+    min-width: 45rem;
+  }
+}
