@@ -30,42 +30,50 @@
   <circle cx="250" cy="380" r="12" fill="#22a699" stroke="#ffffff" stroke-width="4"/>
   <circle cx="250" cy="380" r="25" fill="none" stroke="#22a699" stroke-width="2" stroke-dasharray="5 5"/>
   <path d="M236 380 H264 M250 366 V394" stroke="#172b4d" stroke-width="2"/>
-  <text x="250" y="425" text-anchor="middle" class="label" fill="#147d73">EUDF / NEP</text>
+  <text x="250" y="425" text-anchor="middle" class="label" fill="#147d73">Deep-field region</text>
   <text x="250" y="451" text-anchor="middle" class="small">detail enlarged at right</text>
 
   <path d="M278 368 C370 300 435 260 505 230" fill="none" stroke="#718096" stroke-width="2" marker-end="url(#arrow)"/>
   <path d="M278 393 C385 470 445 490 505 500" fill="none" stroke="#718096" stroke-width="2" marker-end="url(#arrow)"/>
 
-  <circle cx="845" cy="350" r="230" fill="#d9f1ed" fill-opacity="0.55" stroke="#22a699" stroke-width="4"/>
-  <text x="1135" y="130" text-anchor="end" class="label" fill="#147d73">EUDF</text>
-  <text x="1135" y="156" text-anchor="end" class="detail">radius ~0.5°</text>
-  <path d="M1060 166 L1025 208" stroke="#147d73" stroke-width="2"/>
+  <circle cx="845" cy="350" r="285" fill="#d9f1ed" fill-opacity="0.40" stroke="#22a699" stroke-width="4"/>
+  <text x="1160" y="96" text-anchor="end" class="label" fill="#147d73">EUDF</text>
+  <text x="1160" y="122" text-anchor="end" class="detail">radius ~0.5°</text>
+  <path d="M1100 134 L1058 174" stroke="#147d73" stroke-width="2"/>
 
-  <g transform="rotate(-8 845 350)">
-    <rect x="665" y="260" width="360" height="180" rx="4" fill="#f7c873" fill-opacity="0.45" stroke="#c98200" stroke-width="4"/>
-    <rect x="735" y="292" width="225" height="118" rx="3" fill="#315f88" fill-opacity="0.78" stroke="#183b5b" stroke-width="4"/>
-    <rect x="820" y="315" width="88" height="70" rx="3" fill="#d94888" fill-opacity="0.9" stroke="#8c2456" stroke-width="4"/>
+  <g id="rxdf" transform="rotate(-8 845 350)">
+    <rect x="610" y="225" width="470" height="255" rx="4" fill="#f7c873" fill-opacity="0.22" stroke="#c98200" stroke-width="4"/>
   </g>
 
-  <path d="M665 250 L635 180" stroke="#c98200" stroke-width="2"/>
-  <text x="555" y="130" class="label" fill="#a56700">RXDF</text>
-  <text x="555" y="156" class="detail">50.3' × 25.5'</text>
-  <text x="555" y="180" class="small">&gt;1,200 arcmin² total</text>
+  <g id="nexus-wide" transform="translate(845 350) rotate(-8) scale(0.88)">
+    <g fill="none" stroke="#d62728" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" opacity="0.9">
+      <rect x="-100" y="-100" width="200" height="200" transform="rotate(-42)"/>
+      <rect x="-98" y="-98" width="196" height="196" transform="rotate(0)"/>
+      <rect x="-94" y="-94" width="188" height="188" transform="rotate(42)"/>
+    </g>
+  </g>
 
-  <path d="M760 417 L675 506" stroke="#183b5b" stroke-width="2"/>
-  <text x="555" y="528" class="label" fill="#183b5b">NEXUS Wide</text>
-  <text x="555" y="554" class="detail">~400 arcmin²</text>
+  <g id="nexus-deep" transform="translate(845 350) rotate(-8)">
+    <polygon points="0,-45 39,-23 39,23 0,45 -39,23 -39,-23" fill="#7b2cbf" fill-opacity="0.70" stroke="#5a189a" stroke-width="5" stroke-linejoin="round"/>
+  </g>
 
-  <path d="M888 388 L970 490" stroke="#8c2456" stroke-width="2"/>
-  <text x="940" y="520" class="label" fill="#8c2456">NEXUS Deep</text>
-  <text x="940" y="546" class="detail">~50 arcmin²</text>
+  <path d="M828 228 L790 178" stroke="#c98200" stroke-width="2"/>
+  <text x="710" y="126" class="label" fill="#a56700">RXDF</text>
+  <text x="710" y="152" class="detail">50.3' × 25.5'</text>
+  <text x="710" y="176" class="small">&gt;1,200 arcmin² total</text>
 
-  <g transform="translate(845 350)">
+  <path d="M780 440 L710 526" stroke="#d62728" stroke-width="2"/>
+  <text x="680" y="552" class="label" fill="#d62728">NEXUS Wide</text>
+  <text x="680" y="578" class="detail">~400 arcmin²</text>
+
+  <path d="M882 376 L943 505" stroke="#5a189a" stroke-width="2"/>
+  <text x="920" y="531" class="label" fill="#5a189a">NEXUS Deep</text>
+  <text x="920" y="557" class="detail">~50 arcmin²</text>
+
+  <g id="nexus-center-marker" transform="translate(845 350)">
     <circle r="7" fill="#172b4d"/>
     <path d="M-16 0 H16 M0 -16 V16" stroke="#172b4d" stroke-width="3"/>
   </g>
-  <text x="845" y="330" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">NEP</text>
-
-  <text x="600" y="604" class="small">Nested shapes show survey hierarchy; orientation and placement are schematic.</text>
-  <text x="30" y="686" class="small">Two scales are used so the sub-degree JWST, Roman, and Euclid footprints remain visible within the much wider SPHEREx field.</text>
+  <text x="845" y="330" text-anchor="middle" font-size="12" font-weight="700" fill="#000000">NEXUS center</text>
+  <text x="30" y="686" class="small">Note: this is a simplified layout schematic; the scale is not necessarily identical to the actual footprint. The NEXUS parallel-observation footprint is not shown.</text>
 </svg>
