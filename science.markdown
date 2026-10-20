@@ -9,6 +9,8 @@ NEXUS-related publications are listed below in reverse chronological order. Date
 
 ## 2026
 
+- **2026-09-29** — [NEXUS: Discovery of a Luminous Young Transient at z = 5](https://ui.adsabs.harvard.edu/abs/arXiv:2609.38373/abstract), Zhuang et al.
+- **2026-09-07** — [NEXUS: Transient Searches and First Results from Year One Observations](https://ui.adsabs.harvard.edu/abs/arXiv:2609.06985/abstract), Zhuang et al.
 - **2026-08-03** — [NEXUS: Spectral Variability of Little Red Dots and Blue Active Galactic Nuclei at 2 < z < 6](https://ui.adsabs.harvard.edu/abs/arXiv:2608.01647/abstract), Stone et al.
 - **2026-06-08** — [NEXUS: Abundance, Environments, and Spectral Diversity of Little Red Dots from the NIRSpec MSA Sample](https://ui.adsabs.harvard.edu/abs/arXiv:2606.09721/abstract), Pan et al.
 - **2026-03-04** — [NEXUS: Quick Release Notes](https://ui.adsabs.harvard.edu/abs/arXiv:2603.04586/abstract), Zhuang et al.
