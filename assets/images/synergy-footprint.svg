@@ -30,8 +30,8 @@
   <circle cx="250" cy="380" r="12" fill="#22a699" stroke="#ffffff" stroke-width="4"/>
   <circle cx="250" cy="380" r="25" fill="none" stroke="#22a699" stroke-width="2" stroke-dasharray="5 5"/>
   <path d="M236 380 H264 M250 366 V394" stroke="#172b4d" stroke-width="2"/>
-  <text x="250" y="425" text-anchor="middle" class="label" fill="#147d73">Deep-field region</text>
-  <text x="250" y="451" text-anchor="middle" class="small">detail enlarged at right</text>
+  <text x="220" y="445" text-anchor="middle" class="label" fill="#147d73">Deep-field region</text>
+  <text x="220" y="471" text-anchor="middle" class="small">detail enlarged at right</text>
 
   <path d="M278 368 C370 300 435 260 505 230" fill="none" stroke="#718096" stroke-width="2" marker-end="url(#arrow)"/>
   <path d="M278 393 C385 470 445 490 505 500" fill="none" stroke="#718096" stroke-width="2" marker-end="url(#arrow)"/>
@@ -41,7 +41,7 @@
   <text x="1160" y="122" text-anchor="end" class="detail">radius ~0.5°</text>
   <path d="M1100 134 L1058 174" stroke="#147d73" stroke-width="2"/>
 
-  <g id="rxdf" transform="rotate(-8 845 350)">
+  <g id="rxdf" transform="rotate(82 845 350)">
     <rect x="610" y="225" width="470" height="255" rx="4" fill="#f7c873" fill-opacity="0.22" stroke="#c98200" stroke-width="4"/>
   </g>
 
@@ -57,23 +57,23 @@
     <polygon points="0,-45 39,-23 39,23 0,45 -39,23 -39,-23" fill="#7b2cbf" fill-opacity="0.70" stroke="#5a189a" stroke-width="5" stroke-linejoin="round"/>
   </g>
 
-  <path d="M828 228 L790 178" stroke="#c98200" stroke-width="2"/>
-  <text x="710" y="126" class="label" fill="#a56700">RXDF</text>
-  <text x="710" y="152" class="detail">50.3' × 25.5'</text>
-  <text x="710" y="176" class="small">&gt;1,200 arcmin² total</text>
+  <path d="M845 113 L845 140" stroke="#c98200" stroke-width="2"/>
+  <text x="845" y="166" text-anchor="middle" class="label" fill="#a56700">RXDF</text>
+  <text x="845" y="192" text-anchor="middle" class="detail">50.3' × 25.5'</text>
+  <text x="845" y="216" text-anchor="middle" class="small">&gt;1,200 arcmin² total</text>
 
-  <path d="M780 440 L710 526" stroke="#d62728" stroke-width="2"/>
-  <text x="680" y="552" class="label" fill="#d62728">NEXUS Wide</text>
-  <text x="680" y="578" class="detail">~400 arcmin²</text>
+  <path d="M773 448 L792 526" stroke="#d62728" stroke-width="2"/>
+  <text x="820" y="552" text-anchor="middle" class="label" fill="#d62728">NEXUS Wide</text>
+  <text x="820" y="578" text-anchor="middle" class="detail">~400 arcmin²</text>
 
-  <path d="M882 376 L943 505" stroke="#5a189a" stroke-width="2"/>
-  <text x="920" y="531" class="label" fill="#5a189a">NEXUS Deep</text>
-  <text x="920" y="557" class="detail">~50 arcmin²</text>
+  <path d="M887 367 L955 411 H980" fill="none" stroke="#5a189a" stroke-width="2"/>
+  <text x="1055" y="420" text-anchor="middle" class="label" fill="#5a189a">NEXUS Deep</text>
+  <text x="1055" y="446" text-anchor="middle" class="detail">~50 arcmin²</text>
 
   <g id="nexus-center-marker" transform="translate(845 350)">
     <circle r="7" fill="#172b4d"/>
     <path d="M-16 0 H16 M0 -16 V16" stroke="#172b4d" stroke-width="3"/>
   </g>
-  <text x="845" y="330" text-anchor="middle" font-size="12" font-weight="700" fill="#000000">NEXUS center</text>
+  <text x="845" y="291" text-anchor="middle" font-size="12" font-weight="700" fill="#000000">NEXUS center</text>
   <text x="30" y="686" class="small">Note: this is a simplified layout schematic; the scale is not necessarily identical to the actual footprint. The NEXUS parallel-observation footprint is not shown.</text>
 </svg>

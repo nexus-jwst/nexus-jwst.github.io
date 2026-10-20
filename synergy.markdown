@@ -10,7 +10,7 @@ NEXUS is located in the North Ecliptic Pole continuous-viewing zone, where deep 
 ## Footprint
 
 <figure class="synergy-map">
-  <img src="/assets/images/synergy-footprint.svg" alt="Schematic showing the SPHEREx North Deep Field and a detailed view of the nested EUDF, RXDF, and NEXUS footprints">
+  <img src="/assets/images/synergy-footprint.svg?v=20261020-rxdf" alt="Schematic showing the SPHEREx North Deep Field and a detailed view of the nested EUDF, RXDF, and NEXUS footprints">
   <figcaption>Schematic footprint overview; relative placement is simplified and the two panels use different scales. Areas and dimensions are labeled for comparison.</figcaption>
 </figure>
 
